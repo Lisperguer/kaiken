@@ -64,3 +64,11 @@ Desventajas:
    Esto ejecutará un trigger que actualizará la pestaña correspondiente en Google Sheets.
 
 ---
+
+## Aspectos de mejora
+
+Debido a al tiempo dedicado a este MVP, quedan como propuesta las siguientes mejoras:
+
+1. Al momento de agregar un tender, que los productos, proveedores y clientes sean un dropdown con los ya existentes
+2. Precargar información de manera constante para que sea más fácil su lectura mediante un Google Scheduler, así no hay necesidad de cargar información
+3. Unificar App Script en una cloud function y que se agregue automáticamente a varios Google Sheets, así la mantención se hace en un solo código
