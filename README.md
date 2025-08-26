@@ -26,6 +26,18 @@ Este modelo permite la ingesta de todas lentidades para este proyecto. Además, 
 - **AppScript**
 - **Power BI**
 
+¿Porqué estas herramientas?
+El ecosistema google permite un sistema simple y probado de seguridad. Solamente pueden ver/editar aquellos que se les comparta el acceso mediante correo. Por lo tanto, las ventajas que tenemos son:
+1. No hay que diseñar sistema de autenticación, ya viene integrado.
+2. No hay que hostear algún link para las cloud functions, se realiza automáticamente. Las cloud functions se pueden integrar con github para realizar CI/CD de manera nativa, lo cual también acelará el desarrollo a futuro haciéndolo más robusto
+3. AppScript (Código en Sheet) viene integrado con Google Sheet, lo que hace más directo el desarrollo. Además, cuenta con versionamiento en caso de querer realizar un rollback
+4. BigQuery: para fácil integración con Google Sheets/App Script
+
+Desventajas: 
+1. BigQuery no posee modelado de datos, así que en caso de querer realizar una integración con otra plataforma que lo realice, se deberá hacer por código
+2. La desventaja anterior se suple con PowerBi, ya que al integrar las tablas de manera nativa podemos relacionarlas entre sí
+   
+
 ---
 
 ## Método de uso
