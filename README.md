@@ -31,20 +31,21 @@ Este repositorio fue creado para documentar las decisiones tomadas en el proyect
 
 1. En **Power BI** puedes visualizar las gráficas.  
    Estas se actualizan diariamente a las **9:00 AM**, aunque se pueden configurar más frecuencias según necesidades del negocio.
+   También, desde Power BI se puede acceder directamente el link de registros, el cuál se logra haciendo "Ctrl + click" sobre el botón del gráfico
 
-2. En **Google Sheets**, los accionables se realizan a través de la pestaña **"Acción"**:  
+3. En **Google Sheets**, los accionables se realizan a través de la pestaña **"Acción"**:  
    <img width="1332" height="468" alt="Acción" src="https://github.com/user-attachments/assets/e152a1d7-e7ef-4704-a7b4-2d0c938e53bc" />
 
-3. Se recomienda partir con:  
+4. Se recomienda partir con:  
    **`Importar Datos → Import all missing sheets`**  
    Esto traerá todas las tablas desde BigQuery.  
    > ⚠️ Esta opción es solo para visualización, no modifica la base de datos.
 
-4. Para **agregar información** (ej: productos con stock, clientes, licitaciones, etc.), utiliza la pestaña **"Agregar"**.
+5. Para **agregar información** (ej: productos con stock, clientes, licitaciones, etc.), utiliza la pestaña **"Agregar"**.
 
-5. Para **editar información** (ej: stock o precio de algún producto), utiliza la pestaña **"Editar"**.
+6. Para **editar información** (ej: stock o precio de algún producto), utiliza la pestaña **"Editar"**.
 
-6. Para **actualizar datos** desde la base de datos al Google Sheet:  
+7. Para **actualizar datos** desde la base de datos al Google Sheet:  
    - Presiona **"Actualizar"**  
    - Selecciona la tabla deseada  
    Esto ejecutará un trigger que actualizará la pestaña correspondiente en Google Sheets.
