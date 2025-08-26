@@ -62,6 +62,20 @@ Desventajas:
    - Presiona **"Actualizar"**  
    - Selecciona la tabla deseada  
    Esto ejecutará un trigger que actualizará la pestaña correspondiente en Google Sheets.
+---
+
+## Agregar Tender
+
+** Variables ** 
+Al agregar un tender, se pedirá el product_id, provider_id y el cliente_id. Para obtener el product_id y provider_id, se recomienda ir a la pestaña **current_stock_cost** y obtener el product_id y provider_id. Para client_id se recomienda ir a la tabla **clientes** y obtenerlo
+<img width="913" height="872" alt="image" src="https://github.com/user-attachments/assets/6ccf060e-5b99-440c-942a-7267c53fe89a" />
+
+
+**En caso de que no se cumple una condición**
+Aparecerá un popup. El Popup tiene un mensaje de respuesta del servidor de bigquery, en donde al final se detallará la razón del rechazo.
+
+<img width="987" height="1046" alt="image" src="https://github.com/user-attachments/assets/4b1357dc-45c3-4213-b897-9d6157786292" />
+
 
 ---
 
@@ -72,3 +86,4 @@ Debido a al tiempo dedicado a este MVP, quedan como propuesta las siguientes mej
 1. Al momento de agregar un tender, que los productos, proveedores y clientes sean un dropdown con los ya existentes
 2. Precargar información de manera constante para que sea más fácil su lectura mediante un Google Scheduler, así no hay necesidad de cargar información
 3. Unificar App Script en una cloud function y que se agregue automáticamente a varios Google Sheets, así la mantención se hace en un solo código
+4. Crear otra tabla cada vez que hayan cambios en stock/precio. Así, podemos ver la evolución de cada proveedor en el tiempo en cuánto a su stock y precio
