@@ -79,7 +79,7 @@ Aparecerá un popup. El Popup tiene un mensaje de respuesta del servidor de bigq
 
 ---
 
-## Aspectos de mejora
+## Aspectos de mejora propuestos
 
 Debido a al tiempo dedicado a este MVP, quedan como propuesta las siguientes mejoras:
 
