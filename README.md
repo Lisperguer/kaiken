@@ -43,7 +43,7 @@ Desventajas:
 ## Método de uso
 
 1. En **Power BI** puedes visualizar las gráficas.  
-   Estas se actualizan diariamente a las **9:00 AM**, aunque se pueden configurar más frecuencias según necesidades del negocio.
+   Estas se actualizan diariamente a las **9:00 AM**, aunque se pueden configurar más frecuencias según necesidades del negocio. Además, si se comparte la cuenta, pueden actualizar manualmente cuando sea necesario, esta es una **limitación de este MVP** ya que el lector no tendrá acceso
    También, desde Power BI se puede acceder directamente el link de registros, el cuál se logra haciendo "Ctrl + click" sobre el botón del gráfico
 
 3. En **Google Sheets**, los accionables se realizan a través de la pestaña **"Acción"**:  
