@@ -1,6 +1,6 @@
 # Kaiken
 
-Este repositorio fue creado para documentar las decisiones tomadas en el proyecto, el cual vive en **Power BI** y **Google Sheets**.
+Este repositorio fue creado para documentar las decisiones tomadas en el proyecto, el cual vive en **Power BI** y **Google Sheets**. No es necesario deployar, ya que ambos servicios ya están en línea. Esto es considerado ya que quita mantenimiento futuro, da agilidad de desarrollo y mantiene el enfoque en el producto
 
 ---
 
