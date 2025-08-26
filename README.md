@@ -12,6 +12,7 @@ Este repositorio fue creado para documentar las decisiones tomadas en el proyect
 ---
 
 ## Modelo de datos en Power BI
+Este modelo permite la ingesta de todas lentidades para este proyecto. Además, permite trabajar con stock por producto por proveedor, soportando el esquema de que un proveedor entrega varios productos pero también un producto puede ser entregado por varios proveedores
 
 <img width="787" height="698" alt="Modelo de datos" src="https://github.com/user-attachments/assets/fc032b0f-5de6-4acd-96ba-c0c1f2bcc694" />
 
